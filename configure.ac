@@ -37,17 +37,9 @@ fi
 
 dnl check for zlib library
 AX_LIB_ZLIB
-if test "$HAVE_ZLIB" = "no" 
-then
-  AC_MSG_ERROR([required library not found]);
-fi
 
 dnl Check for bzip2 library
 AX_LIB_BZIP2
-if test "$HAVE_BZIP2" = "no" 
-then
-  AC_MSG_ERROR([required library not found]);
-fi
 
 dnl Check for Geos library
 AX_LIB_GEOS
